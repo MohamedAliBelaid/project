@@ -1,0 +1,34 @@
+#bmw{
+  width: 20%;
+  float: left;
+}
+
+#mercedes{
+	  width: 27%;
+   float: right;
+}
+h1{
+	text-align: center;
+	color:gray;
+
+}
+body{
+	  background-image: url('bm.jpg');
+}
+.question1{
+	color:white;
+	font-size: 150%;
+	text-align: left;
+}
+
+.button{
+	  background-color: gray;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 	float: left;
+
+}
