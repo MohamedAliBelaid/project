@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="icon" href="https://www.kindpng.com/picc/m/329-3295609_mechanic-clipart-automobile-engineer-vector-cars-logo-png.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="project.css">
-	<script src="project.js"></script>
-	<title></title>
 	<img id="bmw" src="bmw.jpg"><br>
 	
 	<img id="mercedes"src="mercedes.jpg"><br><br><br><br>
-	<h1 class="ml">Choose your car</h1><br>
+	<h1 class="ml">Choose your car</h1><br><br><br>
 
 </head>
 <body>
-<br><br><br><div class="question1">which color do you prefer ?</div><button class="button">white</button><button class="button">black</button><br><br><br><br>
-<div class="question1">which mark do you prefer ?</div><br><button class="button">bmw</button><button class="button">mercedes</button><br><br><br><br>
-<div class="question1">which class do you prefer ? ?</div>><br><button class="button">sport</button><button class="button">luxury</button>
+	
+<div class="container">
+
+<p class="question1">which color do you prefer ?</p>
+ <input id="whites" type="radio"  name="gender" value="white">
+<label class="button" for="white">white</label>
+<input id="blacks" type="radio" name="gender" value="black">
+<label class="button" for="black">black</label><br><br><br><br>
+
+<p class="question1">which mark do you prefer ?</p>
+<input id="bmws" type="radio" name="bag" value="bmw">
+<label class="button" for="bmw">bmw</label>
+<input id="mercedess" type="radio" name="bag" value="mercedes">
+<label class="button" for="mercedes">mercedes</label><br><br><br><br>
+
+<p class="question1">which class do you prefer ?</p>
+<input id="sports"type="radio"  name="small" value="sport">
+<label class="button" for="sport">sport</label>
+<input id="lexurys" type="radio"  name="small" value="lexury">
+<label class="button" for="lexury">lexury</label><br><br><br><br>
+
+<button onclick="myFunction()">your car</button>
+
+<img  class="pop" id="deb"  style="display:none"src="black7.jpg" >
+<img  class="pop" id="dab" style="display:none" src="m8.jpg">
+<img  class="pop" id="dak" style="display:none" src="white7.jpg">
+<img  class="pop" id="dap" style="display:none" src="m8black.jpg">
+<img  class="pop" id="bid" style="display:none" src="classmercedeswhite.jpg">
+<img  class="pop" id="bod" style="display:none" src="mercedesclassblack.jpg">
+<img  class="pop" id="bud" style="display:none" src="whitesportmercedes.jpg">
+<img  class="pop" id="byd" style="display:none" src="blacksportmercedes.jpg">
+ </div>
+
+
+<script src="project.js"></script>
 </body>
 </html>
+
+
